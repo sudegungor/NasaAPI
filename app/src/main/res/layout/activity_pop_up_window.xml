@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/geri_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="GERİ"
+        android:textSize="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/geri"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/popup_item_photo"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_earth_date"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_rover_name"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_cam_full_name"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_cam_name"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_rover_status"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_launch_date"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_text_landing_date"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
